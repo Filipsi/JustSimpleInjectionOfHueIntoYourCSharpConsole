@@ -1,0 +1,6 @@
+C:\Users\Filipsi\Documents\GitHub\JustSimpleInjectionOfHueIntoYourCSharpConsole\JSIOHIYCSC\JSIOHIYCSC\bin\Debug\JSIOHIYCSC.dll
+C:\Users\Filipsi\Documents\GitHub\JustSimpleInjectionOfHueIntoYourCSharpConsole\JSIOHIYCSC\JSIOHIYCSC\bin\Debug\JSIOHIYCSC.pdb
+C:\Users\Filipsi\Documents\GitHub\JustSimpleInjectionOfHueIntoYourCSharpConsole\JSIOHIYCSC\JSIOHIYCSC\obj\Debug\JSIOHIYCSC.csprojResolveAssemblyReference.cache
+C:\Users\Filipsi\Documents\GitHub\JustSimpleInjectionOfHueIntoYourCSharpConsole\JSIOHIYCSC\JSIOHIYCSC\obj\Debug\JSIOHIYCSC.dll
+C:\Users\Filipsi\Documents\GitHub\JustSimpleInjectionOfHueIntoYourCSharpConsole\JSIOHIYCSC\JSIOHIYCSC\obj\Debug\JSIOHIYCSC.pdb
+C:\Users\Filipsi\Documents\GitHub\JustSimpleInjectionOfHueIntoYourCSharpConsole\JSIOHIYCSC\JSIOHIYCSC\bin\Debug\JSIOHIYCSC.XML
