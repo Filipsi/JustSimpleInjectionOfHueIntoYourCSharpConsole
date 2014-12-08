@@ -23,13 +23,25 @@ namespace JSIOHIYCSC {
 
         private static bool IsHueInjected = false;
         private static bool ShowInformationMessages = true;
-        private static Random HueRandomizer = new Random();
-        private static Timer HueTimer = new Timer();
         private static int HueTimerMinValue = 250;
         private static int HueTimerMaxValue = 3000;
-        private static string HueString = "hue";
         private static HueColorMode HueColorSettings;
+        private static int HueShowedCounter = 0;
 
+        private static Random HueRandomizer = new Random();
+        private static Timer HueTimer = new Timer();
+
+        private static string HueString = "hue";
+
+        /// <summary> Returns true is if hue is injected into your assembly </summary>
+        public static bool IsInjected() {
+            return IsHueInjected;
+        }
+
+        /// <summary> Returns how many hues was drawn from start of injection</summary>
+        public static int GetHueCounterValue() {
+            return HueShowedCounter;
+        }
 
         /// <summary> Sets minimal and maximal value of randomizer for timer that triggers hue drawing, value is in miliseconds </summary>
         /// <param name="_setHueIntervalMinValue">Sets the minimal value of hue randomizer</param>
@@ -109,7 +121,7 @@ namespace JSIOHIYCSC {
                     break;
             }
 
-            
+            HueShowedCounter++;
         }
 
         private static ConsoleColor GetRandomConsoleColor() {

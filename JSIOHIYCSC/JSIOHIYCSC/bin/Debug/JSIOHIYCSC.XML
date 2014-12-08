@@ -19,6 +19,12 @@
         <member name="T:JSIOHIYCSC.JustSimpleInjectionOfHueIntoYourCSharpConsole">
             <summary> Main class of JSIOHIYCSC library, contains a large abount of hue and some code. I am little scared of this class and I am just gland it is static ... </summary>
         </member>
+        <member name="M:JSIOHIYCSC.JustSimpleInjectionOfHueIntoYourCSharpConsole.IsInjected">
+            <summary> Returns true is if hue is injected into your assembly </summary>
+        </member>
+        <member name="M:JSIOHIYCSC.JustSimpleInjectionOfHueIntoYourCSharpConsole.GetHueCounterValue">
+            <summary> Returns how many hues was drawn from start of injection</summary>
+        </member>
         <member name="M:JSIOHIYCSC.JustSimpleInjectionOfHueIntoYourCSharpConsole.SetTimerInterval(System.Int32,System.Int32)">
             <summary> Sets minimal and maximal value of randomizer for timer that triggers hue drawing, value is in miliseconds </summary>
             <param name="_setHueIntervalMinValue">Sets the minimal value of hue randomizer</param>
